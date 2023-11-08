@@ -16,7 +16,7 @@ basic.showIcon(IconNames.Happy)
 // on A Button
 input.onButtonPressed(Button.A, function () {
   robotbit.Servo(servo1, 0)
-  basic.showNumber(0)
+  basic.showString("0")
   basic.showIcon(IconNames.SmallSquare)
   basic.clearScreen()
   basic.showIcon(IconNames.Happy)
@@ -25,7 +25,7 @@ input.onButtonPressed(Button.A, function () {
 // on B Button
 input.onButtonPressed(Button.B, function () {
   robotbit.Servo(servo1, 180)
-  basic.showNumber(180)
+  basic.showString("180")
   basic.showIcon(IconNames.SmallSquare)
   basic.clearScreen()
   basic.showIcon(IconNames.Happy)
